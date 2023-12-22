@@ -5,3 +5,7 @@
     background-color: #ffffff;*/
     margin: 0 0.3rem;
 }
+
+.historias__contenedor:hover{
+    cursor: pointer;
+}
