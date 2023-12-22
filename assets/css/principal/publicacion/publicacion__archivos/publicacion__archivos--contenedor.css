@@ -2,3 +2,7 @@
     display: flex;
     margin: 0 1rem;
 }
+
+.publicacion__archivos--contenedor:hover{
+    cursor: pointer;
+}
