@@ -1,0 +1,6 @@
+.contenido__interactuar{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.14rem #CED0D4 solid;
+    padding: 0.5rem;
+}

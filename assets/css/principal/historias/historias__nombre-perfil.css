@@ -1,0 +1,9 @@
+.historias__nombre-perfil{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 83%;
+    left: 10px;
+}

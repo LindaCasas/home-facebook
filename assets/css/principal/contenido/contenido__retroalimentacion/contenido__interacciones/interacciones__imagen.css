@@ -1,0 +1,6 @@
+.interacciones__imagen{
+    width: 1.3rem;
+}
+.interacciones__imagen.comentario{
+    margin-left: 0.5rem;
+}

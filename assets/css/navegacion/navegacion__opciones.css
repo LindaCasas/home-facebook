@@ -1,0 +1,4 @@
+.navegacion__opciones{
+    display: flex;
+    justify-content: space-between;
+}

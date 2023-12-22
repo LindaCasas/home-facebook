@@ -1,0 +1,5 @@
+.contenido__interacciones{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.14rem #CED0D4 solid;
+}

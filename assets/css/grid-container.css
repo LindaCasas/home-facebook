@@ -1,0 +1,52 @@
+body{
+	background-color: #E4E6EB;
+	font-family: 'Raleway', sans-serif;
+}
+.grid-container{
+	display: grid;
+	grid-template-columns: 1px 1fr 3fr 1fr 1px;
+	grid-template-areas:
+		'. navbar navbar navbar .'
+		'. aside-left main aside-right .'
+		'. aside-left main aside-right .'
+		'. aside-left main aside-right .'  
+		'. footer footer footer .';
+}
+
+.cabecera{
+    grid-area: navbar;
+	background-color: #FFFFFF;
+}
+/*
+.navegacion__busqueda{
+    grid-area: navbar1;
+	background-color: #f15d51;
+}
+.navegacion__enlaces{
+    grid-area: navbar2;
+	background-color: #f15d51;
+}
+.navegacion__opciones{
+    grid-area: navbar3;
+	background-color: #f15d51;
+}
+*/
+
+
+.barra__lateral--izquierda{
+    grid-area: aside-left;
+	background-color: #E4E6EB;
+}
+main{
+    grid-area: main;
+	background-color: #E4E6EB;
+}
+
+.barra__lateral--derecha{
+    grid-area: aside-right;
+	background-color: #E4E6EB;
+}
+.rodapie{
+    grid-area: footer;
+	background-color: #E4E6EB;
+}

@@ -1,0 +1,7 @@
+.contenido__interacciones--comentarios{
+    display: flex;
+}
+
+.contenido__interacciones--comentarios:hover{
+    cursor: pointer;
+}

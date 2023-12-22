@@ -1,0 +1,9 @@
+.historias__texto{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #050505;
+
+    position: absolute;
+    top: 83%;
+    left: 30%;
+}

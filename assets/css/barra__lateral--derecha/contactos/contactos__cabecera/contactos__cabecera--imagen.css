@@ -1,0 +1,9 @@
+.contactos__cabecera--imagen{
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+.contactos__cabecera--imagen:hover{
+    background-color: #dadada;
+    border-radius: 890px;
+    cursor: pointer;
+}

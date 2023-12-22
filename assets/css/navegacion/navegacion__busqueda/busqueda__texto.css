@@ -1,0 +1,12 @@
+.busqueda__texto{
+    border: 0;
+    border-radius: 35px;
+    font-size: 1rem;
+    width: 12rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+    background-color: #E4E6EB;
+    border-color: #E4E6EB;
+
+    text-decoration: none;
+    font-size: 0.9rem;
+}

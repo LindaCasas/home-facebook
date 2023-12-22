@@ -1,0 +1,10 @@
+.contactos__contenedor--perfil{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.contactos__contenedor--perfil:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}

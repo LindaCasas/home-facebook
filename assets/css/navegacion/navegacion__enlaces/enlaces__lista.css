@@ -1,0 +1,5 @@
+.enlaces__lista{
+    margin-block: 0;
+    display: flex;
+    justify-content: center;
+}

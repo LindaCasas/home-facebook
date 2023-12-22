@@ -1,0 +1,10 @@
+.enlace__opcion{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.enlace__opcion:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
