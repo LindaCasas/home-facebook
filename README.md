@@ -4,17 +4,17 @@
 El objetivo de este proyecto es crear una réplica de la página de inicio de Facebook utilizando HTML y CSS. Se busca recrear la apariencia visual y el diseño general de la página principal de Facebook, incluyendo la barra de navegación, el feed de noticias, los widgets de la barra lateral, y el pie de página.
 
 ## Características Principales
-**Barra de Navegación:**
+-**Barra de Navegación:**
    - Incluye el logotipo de Facebook y los enlaces de navegación.
    - Debe ser responsiva y adaptarse a diferentes tamaños de pantalla.
-**Feed de Noticias:**
+-**Feed de Noticias:**
    - Muestra publicaciones recientes de amigos y páginas seguidas.
    - Incluye opciones para interactuar con las publicaciones (me gusta, comentarios, compartir).
    - Las publicaciones pueden contener texto, imágenes y enlaces.
-**Barra Lateral:**
+-**Barra Lateral:**
    - Contiene widgets como cumpleaños, contactos, accesos directos, enlaces, etc.
    - Cada widget debe tener un diseño adecuado y ser responsivo.
-**Pie de Página:**
+-**Pie de Página:**
    - Incluye enlaces a otras secciones de Facebook, términos de servicio, política de privacidad, etc.
    - Debe ser responsivo y adaptarse a diferentes tamaños de pantalla.
 
