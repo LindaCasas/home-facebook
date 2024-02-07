@@ -4,3 +4,83 @@
     align-items: center;
     margin: 0.4em 1rem;
 }
+
+/*busqueda*/
+.navegacion__busqueda{
+    display: flex;
+}
+
+.busqueda__contenedor{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.busqueda__icono{
+    position: absolute;
+    margin-left: 0.5rem;
+}
+
+.busqueda__texto{
+    border: 0;
+    border-radius: 35px;
+    font-size: 1rem;
+    width: 12rem;
+    padding: 0.5rem 0 0.5rem 2rem;
+    background-color: #E4E6EB;
+    border-color: #E4E6EB;
+
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+/*enlaces*/
+.navegacion__enlaces {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.navegacion__enlaces:hover {
+    cursor: pointer;
+}
+
+.enlaces__item {
+    list-style: none; /* Para quitar las viñetas de la lista */
+    flex: 1; /* Hacer que todos los elementos tengan el mismo tamaño */
+    padding: 1em;
+}
+
+.enlaces__item:hover {
+    background-color: #E4E6EB;
+}
+
+.enlaces__link {
+    margin: 0; /* Eliminar el margen lateral */
+}
+
+.enlaces__link img {
+    display: block; /* Hacer que las imágenes se ajusten al tamaño del contenedor */
+    width: 100%; /* Ajustar el tamaño de las imágenes al tamaño del contenedor */
+}
+
+.enlaces__lista {
+    margin-block: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none; /* Para quitar las viñetas de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+}
+
+/*opciones*/
+.navegacion__opciones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion__img{
+    margin-left: 0.5rem;
+}
+
+.navegacion__img:hover{
+    cursor: pointer;
+}

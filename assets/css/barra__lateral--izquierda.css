@@ -1,3 +1,73 @@
 .barra__lateral--izquierda{
     margin-left: 1rem;
 }
+
+/*accesos directos*/
+.accesos-directos{
+    margin: 1rem 0;
+}
+
+.accesos__elementos{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.accesos__elementos:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.accesos__imagen{
+    width: 1.9rem;
+    margin-right: 0.5rem;
+}
+
+.accesos__texto{
+    font-size: 0.9rem;
+    font-weight: 600;
+    transform: translateY(100%);
+    color: #050505;
+}
+
+.accesos__titulo{
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #65676B;
+}
+
+/*enlaces*/
+.enlaces{
+    margin: 1.7rem 0 1rem 0;
+    border-bottom: 0.14rem #CED0D4 solid;
+}
+
+.enlace__imagen{
+    width: 1.9rem;
+    margin-right: 0.5rem;
+}
+
+.enlace__opcion{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.enlace__opcion:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.enlace__texto{
+    font-size: 0.9rem;
+    font-weight: 600;
+    transform: translateY(100%);
+    color: #050505;
+}
+/*rodapie lateral*/
+.rodapie__lateral{
+    color:#65676B;
+    font-size: 0.8125rem;
+    font-weight: 400;
+}

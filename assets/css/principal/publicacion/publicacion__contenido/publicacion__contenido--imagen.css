@@ -1,8 +1,0 @@
-.publicacion__contenido--imagen{
-    width: 2rem;
-    margin-right: 0.5rem;
-}
-
-.publicacion__contenido--imagen:hover{
-    cursor: pointer;
-}

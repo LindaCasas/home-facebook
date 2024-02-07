@@ -3,3 +3,62 @@
     justify-content: center;
     margin: 1.7rem 0 1rem 0;
 }
+
+.historias__contenedor{
+    position: relative;
+    margin: 0 0.3rem;
+}
+.historias__contenedor:hover{
+    cursor: pointer;
+}
+
+.historias__imagen{
+    width: 2rem;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.historias__texto{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #050505;
+
+    position: absolute;
+    top: 83%;
+    left: 30%;
+}
+
+.historias__contenido{
+    position: relative;
+    width: 8.8rem;
+}
+
+.historias__imagen-perfil{
+    width: 2rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.historias__nombre-perfil{
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: #FFFFFF;
+
+    position: absolute;
+    top: 83%;
+    left: 10px;
+}
+
+.historias__base--texto{
+    position: absolute;
+    width: 100%;/*8.77rem;*/
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 0 0 10px 10px;
+    top: 79%;
+}

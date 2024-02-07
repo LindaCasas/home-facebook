@@ -12,26 +12,10 @@ body{
 		'. aside-left main aside-right .'  
 		'. footer footer footer .';
 }
-
 .cabecera{
     grid-area: navbar;
 	background-color: #FFFFFF;
 }
-/*
-.navegacion__busqueda{
-    grid-area: navbar1;
-	background-color: #f15d51;
-}
-.navegacion__enlaces{
-    grid-area: navbar2;
-	background-color: #f15d51;
-}
-.navegacion__opciones{
-    grid-area: navbar3;
-	background-color: #f15d51;
-}
-*/
-
 
 .barra__lateral--izquierda{
     grid-area: aside-left;
@@ -49,4 +33,32 @@ main{
 .rodapie{
     grid-area: footer;
 	background-color: #E4E6EB;
+}
+
+/* Estilos para pantallas de hasta 768px de ancho */
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            'navbar navbar navbar'
+            'aside-left main aside-right'
+            'aside-left main aside-right'  
+            'aside-left main aside-right'  
+            'footer footer footer';
+    }
+}
+
+/* Estilos para pantallas de hasta 480px de ancho */
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            'navbar'
+            'main'
+            'aside-left'
+            'aside-right'
+            'footer';
+    }
 }

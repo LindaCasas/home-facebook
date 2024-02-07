@@ -1,3 +1,123 @@
 .barra__lateral--derecha{
     margin-right: 1rem;
 }
+
+/*paginas y perfiles*/
+.paginas-perfiles{
+    margin: 1.7rem 0 1rem 0;
+    border-bottom: 0.14rem #CED0D4 solid;
+}
+
+.paginas-perfiles__descripcion{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.paginas-perfiles__descripcion:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.paginas-perfiles__imagen{
+    width: 1.9rem;
+    margin-right: 0.5rem;
+}
+
+.paginas-perfiles__nombre{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #050505;
+}
+
+.paginas-perfiles__titulo{
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #65676B;
+}
+
+/*cumpleaños*/
+.cumpleanhos{
+    margin: 1rem 0 1rem 0;
+    border-bottom: 0.14rem #CED0D4 solid;
+}
+
+.cumpleanhos__contenedor{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.cumpleanhos__contenedor:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.cumpleanhos__imagen{
+    width: 1.9rem;
+    margin-right: 0.5rem;
+}
+.cumpleanhos__texto{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #050505;
+    line-height:1rem;
+    margin: 0;
+}
+
+.cumpleanhos__titulo{
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #65676B;
+}
+
+
+/*contactos*/
+.contactos{
+    margin: 1rem 0 1rem 0;
+}
+
+.contactos__cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactos__cabecera--imagen{
+    width: 1rem;
+    margin-left: 0.5rem;
+}
+.contactos__cabecera--imagen:hover{
+    background-color: #dadada;
+    border-radius: 890px;
+    cursor: pointer;
+} 
+
+.contactos__cabecera--titulo{
+    margin-bottom: 1rem;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: #65676B;
+}
+
+.contactos__contenedor--imagen-perfil{
+    width: 1.9rem;
+    margin-right: 0.5rem;
+}
+
+.contactos__contenedor--nombre-perfil{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #050505;
+}
+.contactos__contenedor--perfil{
+    display: flex;
+    line-height:0;
+    margin-bottom: 1rem;
+}
+
+.contactos__contenedor--perfil:hover{
+    background-color: #dadada;
+    cursor: pointer;
+}
