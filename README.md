@@ -6,15 +6,15 @@ El objetivo de este proyecto es crear una réplica de la página de inicio de Fa
 
 ## Características Principales
 
-**Barra de Navegación:**<br>
+Barra de Navegación:<br>
    - Incluye el logotipo de Facebook y los enlaces de navegación.<br>
-**Feed de Noticias:**<br>
+Feed de Noticias:<br>
    - Muestra publicaciones recientes de amigos y páginas seguidas.<br>
    - Incluye opciones para interactuar con las publicaciones (me gusta, comentarios, compartir).<br>
    - Las publicaciones pueden contener texto, imágenes y enlaces.<br>
-**Barra Lateral:**<br>
+Barra Lateral:<br>
    - Contiene widgets como cumpleaños, contactos, accesos directos, enlaces, etc.<br>
-**Pie de Página:**<br>
+Pie de Página:<br>
    - Incluye enlaces a otras secciones de Facebook, términos de servicio, política de privacidad, etc.<br>
 
 ## Tecnologías Utilizadas
