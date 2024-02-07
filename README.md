@@ -6,6 +6,7 @@ El objetivo de este proyecto es crear una réplica de la página de inicio de Fa
 
 ## Características Principales
 
+
 -Barra de Navegación:<br>
    - Incluye el logotipo de Facebook y los enlaces de navegación.<br>
 -Feed de Noticias:<br>
